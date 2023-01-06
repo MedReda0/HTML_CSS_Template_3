@@ -154,6 +154,22 @@ a{
   bottom: 200px;
 }
 
+::-webkit-scrollbar{
+  background-color: transparent;
+  width: 15px;
+}
+
+::-webkit-scrollbar-button{
+  display: none;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: var(--main-color);
+  border-radius: 50px;
+  height: 60px;
+
+}
+
 /* --------------------------------------------------------- */
 
 header{
